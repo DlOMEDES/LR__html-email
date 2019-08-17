@@ -1,0 +1,74 @@
+html {
+  font-size: 62.5%; /*10px --> rem*/
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: 'Oswald', 'Lato', sans-serif;
+
+  /* background: #111324;
+  color: #ffffff; */
+}
+
+p {
+  font-weight: 10rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+}
+
+.left-frame__heading {
+  font-family: 'Lato';
+  font-weight: 100px;
+}
+
+.promo {
+  width: 100%;
+  border: 0.3rem solid red;
+}
+
+.container {
+  width: 60rem;
+  border: 0.3rem solid white;
+}
+
+.left-frame {
+  width: 50%;
+}
+
+.logo {
+  width: 11rem;
+  height: 6.5rem;
+}
+.right-frame {
+  width: 50%;
+}
+
+.right-center__table {
+  width: 100%;
+}
+
+.rframe-img {
+  width: 100%;
+}
+
+.nav-links {
+  color: #fe0000;
+}
+a {
+  list-style-type: none;
+}
+
+.more-button {
+  border: 1px solid white;
+  background: #fe0000;
+  padding: 0.7rem 0.9rem;
+  color: #ffffff;
+}
