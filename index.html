@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" style="font-size: 62.5%;">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,50 +9,77 @@
       href="https://fonts.googleapis.com/css?family=Oswald:400,500,700|Raleway:200,200i,300,300i,400,700,900&display=swap"
       rel="stylesheet"
     />
-
     <title>LR Glasses</title>
+
+    <!-- MOBILE STYLES -->
+    <style>
+      @media only screen and (min-width: 960px) {
+        .container{
+          width: 960px !important;
+        }
+      }
+
+      @media only screen and (max-width: 960px) {
+        .container{
+          width: 600px !important;
+        }
+      }
+
+      @media only screen and (max-width: 600px) {
+        .container{
+          width: 100% !important;
+        }
+      }
+    </style>
+
   </head>
   <body>
     <!-- main email promo -->
-    <table style="width: 100%;" class="promo" cellspacing="0" cellpadding="0">
+    <table 
+       border="0" width= "100%" class="promo" cellspacing="0" cellpadding="0">
       <tr>
         <td>
           <!-- start of main container -->
-          <table
-            style="width: 60rem;
-border: 0.3rem solid #ffffff;"
+          <table 
+            border="0"
+            width="600px"
             class="container"
             cellspacing="0"
             cellpadding="0"
             align="center"
           >
             <!-- start of banner row -->
+            <th align="center">
+                <img
+                style="margin: 20px 0 0 0; width: 150px; height: 65px;"
+                src="./img/lr-logo.png"
+                alt=""
+                class="logo"
+              />
+            </th>
             <tr>
               <td>
                 <!-- LEFT FRAME -->
-                <table
-                  style="width: 50%; padding: 1.5rem 1.5rem 5rem 1.5rem"
+                <table 
+                  border="0" 
                   class="left-frame"
+                  width="50%" 
+                  style="padding: 15px 0 0px 0;"
                   cellspacing="0%"
                   cellpadding="0"
                   align="left"
                 >
+                
                   <tr>
                     <td style="font-family: Raleway;">
-                      <img
-                        style="width: 15rem;
-height: 6.5rem;"
-                        src="./img/lr-logo.png"
-                        alt=""
-                        class="logo"
-                      />
+                      
                       <h3
-                        style="font-size: 1.4rem; font-weight: 200; letter-spacing: .3rem;"
+                        style="font-size: 14px; font-weight: 200; letter-spacing: 3px;"
                       >
                         MAKE YOURSELF THE ICON.
                       </h3>
                       <h1
-                        style="font-family: Oswald;font-size: 3rem; font-weight: 900; letter-spacing: .2rem;"
+                        style="font-family: Oswald;font-size: 30px; font-weight: 900; letter-spacing: 2px;"
                       >
                         CREATE 'THE'
                         <br />
@@ -61,19 +88,19 @@ height: 6.5rem;"
 
                       <p
                         style="
-                      font-size: 1.4rem; 
+                      font-size: 14px; 
                       font-weight: 300;
-                      letter-spacing: .2rem;
-                      margin-bottom: 3.5rem;
+                      letter-spacing: 2px;
+                      margin-bottom: 35px;
 "
                       >
-                        Here you'll find all the Ray-Ban exclusive releases and
+                        Here you'll find all the LR Lenses exclusive releases and
                         limited edition sunglasses. Discover when you can get
                         your eyes on them.
                       </p>
 
                       <a
-                        style="text-decoration: none; background: #9b2721; padding: 1rem .8rem; color: #ffffff; font-weight: 600; font-size: 1.4rem;"
+                        style="background:#9b2721; text-decoration: none; border:none; padding: 15px 25px; color: white; font-weight: 600; font-size: 14px; border-radius: 100px;"
                         class="more-button"
                         href="#"
                         >Learn More!</a
@@ -85,73 +112,18 @@ height: 6.5rem;"
                 <!-- LEFT FRAME ENDS-->
 
                 <!-- START OF RIGHT FRAME -->
-                <table
-                  style="width: 50%;"
+                <table 
+                  border="0"
+                  width="50%"
                   class="right-frame"
                   cellspacing="0%"
                   cellpadding="0"
                   align="right"
                 >
                   <tr>
-                    <td style="font-family: 'Oswald', sans-serif;">
-                      <table
-                        style="width: 100%; margin-top: 1rem"
-                        class="right-center__table"
-                        cellspacing="0%"
-                        cellpadding="0"
-                        align="center"
-                      >
-                        <tr align="center">
-                          <td style="position: relative;">
-                            <a
-                              style="font-family: Oswald; text-decoration: none; font-weight: 400; font-size: 1.4rem; color: #1f1e24; text-transform: uppercase "
-                              href="#"
-                              class="nav-links"
-                              >Shop</a
-                            >
-                          </td>
-
-                          <td style="position: relative;">
-                            <a
-                              style="font-family: Oswald; text-decoration: none; font-weight: 400; font-size: 1.4rem; color: #1f1e24; text-transform: uppercase "
-                              href="#"
-                              class="nav-links"
-                              ><span
-                                style="font-family: Raleway; font-weight: 300;position: absolute; font-size: 10rem; color:#9b2721;left: 2rem;
-                              top: -40px;"
-                                >-</span
-                              >Exclusives</a
-                            >
-                          </td>
-                          <td style="position: relative;">
-                            <a
-                              style="font-family: Oswald; text-decoration: none; font-weight: 400; font-size: 1.4rem; color: #1f1e24; text-transform: uppercase"
-                              href="#"
-                              class="nav-links"
-                              >Customize</a
-                            >
-                          </td>
-                          <td style="position: relative;">
-                            <a
-                              style="font-family: Oswald; text-decoration: none; font-weight: 400; font-size: 1.4rem; color: #1f1e24; text-transform: uppercase "
-                              href="#"
-                              class="nav-links"
-                              >About</a
-                            >
-                          </td>
-                          <td style="position: relative;">
-                            <a
-                              style="font-family: Oswald; text-decoration: none; font-weight: 400; font-size: 1.4rem; color: #1f1e24; text-transform: uppercase"
-                              href="#"
-                              class="nav-links"
-                              >Contact</a
-                            >
-                          </td>
-                        </tr>
-                      </table>
-
+                    <td style="padding: 30px 0 0 0;font-family: 'Oswald', sans-serif;">
                       <img
-                        style="margin-top: 6rem;width: 100%;"
+                        style="margin-bottom: -7px; width: 100%;"
                         class="rframe-img"
                         src="./img/rayband__headshot.webp"
                         alt=""
@@ -167,40 +139,37 @@ height: 6.5rem;"
 
             <!-- START OF GLASS WALL -->
 
-            <tr>
+            <tr style="background: linear-gradient(0.25turn, #62dafa, #8fecfb)">
               <td>
-                <table
+                <table 
+                  border="0"
+                  width="100%"
+                  class="glass-wall"
                   cellpadding="0"
                   cellspacing="0"
                   align="left"
-                  style="width: 100%; padding: 30px 0 40px 0; font-family: Raleway"
+                  style="padding: 30px 0 0px 0; font-family: Raleway;"
                 >
-                  <tr>
-                    <td>
-                      <img
-                        style="width:100%;"
-                        src="./img/try-glass.png"
-                        alt=""
-                      />
-                    </td>
-                  </tr>
-                  <tr>
-                    <td
-                      align="center"
-                      style="background: linear-gradient(0.25turn, #62dafa, #8fecfb);"
-                    >
-                      <h3
-                        style="font-size: 2rem; font-weight: 300; padding: 3rem 0 .5rem 0; line-height: 1.4; letter-spacing: .2rem"
-                      >
-                        All of our sunglasses reflect our
-                        <span style="font-weight: 600"
-                          >rich heritage, <br />combining expert
-                          craftsmanship</span
-                        >
-                        with refined taste.
-                      </h3>
-                    </td>
-                  </tr>
+                <tr>
+                  <td align="center">
+                    <h3 style="font-size: 20px; font-weight: 300; padding: 3px 0 5px 0; line-height: 1.4; letter-spacing: 2px">
+                      All of our sunglasses reflect our
+                      <span style="font-weight: 600">rich heritage, <br />combining expert
+                        craftsmanship</span>
+                      with refined taste.
+                    </h3>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <img
+                      style="width:100%; margin-bottom: -4px;"
+                      src="./img/try-glass.png"
+                      alt=""
+                    />
+                  </td>
+                </tr>
+                  
                 </table>
               </td>
             </tr>
@@ -210,28 +179,30 @@ height: 6.5rem;"
             <tr style="background: #f9f9f9">
               <td align="center" style="font-family: Raleway;">
                 <h3
-                  style="font-weight: 400;font-size: 2rem; margin: 3rem 0 1.5rem;"
+                  style="font-weight: 400;font-size: 20px; margin: 30px 0 15px;"
                 >
                   Which materials do you like?
                 </h3>
                 <!-- START COLUMN 1 -->
-                <table
+                <table 
+                  border="0"
+                class="acetate"
                   cellpadding="0"
                   cellspacing="0"
                   align="left"
                   style="width: 33.33%; padding: 15px 15px 70px 15px;"
                 >
                   <th>
-                    <h3 style="font-size: 1.4rem; ">Acetate</h3>
+                    <h3 style="font-size: 14px;">Acetate</h3>
                   </th>
                   <tr>
                     <td align="center">
                       <img
-                        style="width: 10rem; height: 4.5rem"
+                        style="width: 100px; height: 45px"
                         src="./img/acetate.webp"
                         alt=""
                       />
-                      <p style="font-size: 1.4rem; letter-spacing: .1rem;">
+                      <p style="font-size: 14px; letter-spacing: 1px;">
                         This material has been the origial since the late 1940’s
                       </p>
                     </td>
@@ -239,12 +210,12 @@ height: 6.5rem;"
                   <tr align="center">
                     <td>
                       <a
-                        style="margin-right: .5rem; font-size: 1.4rem; font-weight: 700; color: #9b2721; text-decoration: none;"
+                        style="margin-right: 5px; font-size: 14px; font-weight: 700; color: #9b2721; text-decoration: none;"
                         href="#"
                         >Shop men</a
                       >
                       <a
-                        style="font-size: 1.4rem; font-weight: 700; color: #9b2721; text-decoration: none;"
+                        style="font-size: 14px; font-weight: 700; color: #9b2721; text-decoration: none;"
                         href="#"
                         >Shop women</a
                       >
@@ -255,23 +226,25 @@ height: 6.5rem;"
                 <!-- END COLUMN 1 -->
 
                 <!-- START COLUMN 2 -->
-                <table
+                <table 
+                  border="0"
+                  class="metal"
                   align="left"
                   cellpadding="0"
                   cellspacing="0"
                   style="width: 33.33%; padding: 15px 15px 70px 15px"
                 >
                   <th>
-                    <h3 style="font-size: 1.4rem;">Metal</h3>
+                    <h3 style="font-size: 14px;">Metal</h3>
                   </th>
                   <tr>
                     <td align="center">
                       <img
-                        style="width: 10rem; height: 4.5rem"
+                        style="width: 100px; height: 45px"
                         src="./img/metal.webp"
                         alt=""
                       />
-                      <p style="font-size: 1.4rem; letter-spacing: 1px;">
+                      <p style="font-size: 14px; letter-spacing: 1px;">
                         Either stainless steel or titanium equipped with
                         adjustable nose pads. Lightweight and durable.
                       </p>
@@ -280,12 +253,12 @@ height: 6.5rem;"
                   <tr align="center">
                     <td>
                       <a
-                        style="margin-right: .5rem; font-size: 1.4rem; font-weight: 700; color: #9b2721; text-decoration: none;"
+                        style="margin-right: 5px; font-size: 14px; font-weight: 700; color: #9b2721; text-decoration: none;"
                         href="#"
                         >Shop men</a
                       >
                       <a
-                        style="font-size: 1.4rem; font-weight: 700; color: #9b2721; text-decoration: none;"
+                        style="font-size: 14px; font-weight: 700; color: #9b2721; text-decoration: none;"
                         href="#"
                         >Shop women</a
                       >
@@ -296,23 +269,25 @@ height: 6.5rem;"
                 <!-- END COLUMN 2 -->
 
                 <!-- START COLUMN 3 -->
-                <table
+                <table 
+                  border="0"
+                  class="mixed-metal"
                   align="left"
                   cellpadding="0"
                   cellspacing="0"
                   style="width: 33.33%; padding: 15px 15px 70px 15px"
                 >
                   <th>
-                    <h3 style="font-size: 1.4rem">Eye Exams</h3>
+                    <h3 style="font-size: 14px">Mix Metal</h3>
                   </th>
                   <tr>
                     <td align="center">
                       <img
-                        style="width: 10rem; height: 4.5rem"
+                        style="width: 100px; height: 45px"
                         src="./img/mixed.webp"
                         alt=""
                       />
-                      <p style="font-size: 1.4rem; letter-spacing: 1px;">
+                      <p style="font-size: 14px; letter-spacing: 1px;">
                         Acetate paired with stainless steel or titanium accents
                       </p>
                     </td>
@@ -320,7 +295,7 @@ height: 6.5rem;"
                   <tr align="center">
                     <td>
                       <a
-                        style="margin-right: .5rem; font-size: 1.4rem; font-weight: 700; color: #9b2721; text-decoration: none;"
+                        style="margin-right: 5px; font-size: 14px; font-weight: 700; color: #9b2721; text-decoration: none;"
                         href="#"
                         >Mixed meterial</a
                       >
@@ -332,6 +307,184 @@ height: 6.5rem;"
               </td>
             </tr>
             <!-- END OF FEATURED -->
+
+            <!-- START OF SIZES -->
+            <tr style="background: #fff9e7">
+              <td align="center" style="font-family: Raleway;">
+                <h3
+                  style="font-weight: 600;font-size: 20px; margin: 30px 0 15px;"
+                >
+                  HOW WE SEE FIT
+                </h3>
+                <!-- START COLUMN 1 -->
+                <table 
+                  border="0"
+                  class="sizes"
+                  cellpadding="0"
+                  cellspacing="0"
+                  align="left"
+                  style="width: 50%; padding: 15px 15px 70px 15px;"
+                >
+                  <th>
+                    <h3 style="font-size: 14px; ">WHAT HARVEY RECOMMENDS</h3>
+                  </th>
+                  <tr>
+                    <td align="center">
+                      <img
+                        style="width: 100%; height: 150px; border-radius: 100px;"
+                        src="./img/salesman.jpg"
+                        alt=""
+                      />
+                      <p style="font-size: 14px; letter-spacing: 1px;">
+                        An important part of fit is determining where your eye
+                        sits in the frame. Your eyes should be well centered in
+                        the frame. Eyeglass frames that are too wide will make
+                        your eyes appear too close together, while narrow frames
+                        will give your eyes a wide-set look.
+                      </p>
+                    </td>
+                  </tr>
+                </table>
+
+                <!-- END COLUMN 1 -->
+
+                <!-- START COLUMN 2 -->
+                <table 
+                  border="0"
+                  class="sizes-col-2"
+                  style="padding: 15px 10px 70px 10px;"
+                  align="left"
+                  cellpadding="0"
+                  cellspacing="0"
+                >
+                  <tr>
+                    <td align="center">
+                      <img
+                        style="margin: 15px 0; width: 100px; height: 45px"
+                        src="./img/size-narrow.png"
+                        alt=""
+                      />
+                      <tr>
+                        <td align="center">
+                          <span style=>42mm - 45mm</span>
+                          <hr style="margin-bottom: 25px">
+                        </td>
+                      </tr>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <img
+                        style="margin: 15px 0; width: 100px; height: 40px"
+                        src="./img/size-average.png"
+                        alt=""
+                      />
+                    </td>
+                    <tr>
+                      <td align="center">
+                        <span style=>46mm - 49mm</span> 
+                        <hr style="margin-bottom: 25px">
+                      </td>
+                    </tr>
+                  </tr>
+                  <tr>
+                    <td>
+                      <img
+                        style="margin: 15px 0; width: 100px; height: 45px"
+                        src="./img/size-wide.png"
+                        alt=""
+                      />
+                    </td>
+                    <tr>
+                      <td align="center">
+                        <span style=>46mm - 49mm</span>
+                        <hr>
+                      </td>
+                    </tr>
+                  </tr>
+
+                  <!-- START COLUMN 3 -->
+                  <table 
+                    border="0"
+                    class="sizes-col-3"
+                    cellpadding="0"
+                    cellspacing="0"
+                    style="padding: 15px 10px 70px 10px;">
+                    
+                    <tr>
+                      <td>
+                        <h3>NARROW</h3>
+                        <p style="font-size: 14px">If your face is on the slimmer side, or hats tend to be loose.</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                          <h3>AVERAGE</h3>
+                          <p style="font-size: 14px">LR customers are comfortable in this range. If you’re unsure, choose these sizes.</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                          <h3>WIDE</h3>
+                          <p style="font-size: 14px">WIDE
+                          If your head is on the wider side, or hats tend to be a bit snug.</p>
+                      </td>
+                    </tr>
+                  </table>
+                  <!-- END COLUMN 3 -->
+                  
+                  <!-- END SIZES -->
+
+                  <!-- START OF JOIN NEWSLETTER -->
+                  <tr>
+                    <td style="background: #141414; color: white; text-align: center;">
+                      <!-- join us -->
+                      <table 
+                        border="0" cellpadding="0" cellspacing="0" align="center" style="width: 100%;padding: 3px 0 3px 0; font-family: Oswald;
+                                                ">
+                        <tr>
+                          <td>
+                            <h3 style="font-size: 24px; margin: 20px 0; letter-spacing: 2px;">
+                              JOIN THE FAMILY
+                            </h3>
+                          </td>
+                        </tr>
+                  
+                        <!-- email -->
+                        <tr>
+                          <td>
+                            <input style="font-size: 14px; border: none; padding:4px; margin: 10px 0; width: 300px" type="text"
+                              placeholder="Email" />
+                            <a style="font-size: 14px; background: #9b2721; border: none; margin: -4px; padding: 4px 6px; color: white; text-decoration: none"
+                              href="#">SUBSCRIBE</a>
+                          </td>
+                        </tr>
+                        <!-- rewards -->
+                        <tr>
+                          <td>
+                            <p style="font-size: 14px; margin: 10px 0; font-weight: 400; font-family: Raleway">
+                              Enjoy 10% off your first online purchase and stay up to
+                              date on all things L|R Lenses.
+                            </p>
+                          </td>
+                        </tr>
+
+                        <tr>
+                          <td>
+                            <img style="width: 30px; margin: 25px 10px;" src="./img/instagram-brands.png" alt="">
+                            <img style="width: 30px; margin: 25px 10px;" src="./img/facebook-square-brands.png" alt="">
+                            <img style="width: 30px; margin: 25px 10px;" src="./img/twitter-brands.png" alt="">
+                          </td>
+                        </tr>
+                        
+                      </table>
+                    </td>
+                  </tr>
+                  <!-- END OF JOIN NEWSLETTER -->
+                </table>
+              </td>
+            </tr>
+
           </table>
         </td>
       </tr>
